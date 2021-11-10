@@ -205,3 +205,6 @@ PRODUCT_PACKAGES += \
 # (b/183612348): Enable skia reduceOpsTaskSplitting
 PRODUCT_PROPERTY_OVERRIDES += \
     renderthread.skia.reduceopstasksplitting=true
+
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, device/google/bramble/gapps.mk)
