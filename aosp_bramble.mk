@@ -73,3 +73,6 @@ PRODUCT_BRAND := Android
 PRODUCT_NAME := aosp_bramble
 PRODUCT_DEVICE := bramble
 PRODUCT_MODEL := AOSP on bramble
+
+# Fingerprint override
+BUILD_FINGERPRINT := google/bramble/bramble:12/SP1A.210812.016.A1/7796139:user/release-keys
